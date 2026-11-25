@@ -1,1 +1,1 @@
-# Simple-Tic-Tac-Toe-Ransomware-
+# Simple-Tic-Tac-Toe-Ransomware-Decryptor
